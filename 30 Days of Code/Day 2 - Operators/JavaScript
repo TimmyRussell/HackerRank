@@ -1,0 +1,14 @@
+function main() {
+    var mealCost = 12;
+    var tipPercent = 20;
+    var taxPercent = 8;
+
+    var tip = (mealCost * tipPercent / 100);
+    var tax = (mealCost * taxPercent / 100);
+    var total = (tip + tax + mealCost);
+
+    //console.log("The tip comes to: $" + tip);
+    //console.log("The tax comes to: $" + tax);
+    //console.log("The TOTAL COST comes to: $" + total);
+    console.log("The total meal cost is " + Math.round(total) + " dollars.");
+};
