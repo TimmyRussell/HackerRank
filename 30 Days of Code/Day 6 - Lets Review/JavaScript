@@ -1,0 +1,11 @@
+prcoessData(input){
+S = input
+    even = [];
+    odd = []
+    for (i = 0; i < S.length; ; i=i+2) {
+        even = even + S[i];
+    }
+    for (j = 1; j <= S.length ; j = j + 2)
+        odd = odd + S[j];
+    console.log(even + " " + odd);
+    };
